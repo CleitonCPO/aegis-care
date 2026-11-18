@@ -18,14 +18,14 @@ const AcademySection = () => (
           <h2 id="academy-title" className="font-display text-4xl md:text-5xl text-academy-foreground mb-6 leading-tight">Faça parte<br />da Academy</h2>
           <p className="text-academy-foreground/85 text-base md:text-lg leading-relaxed text-justify mb-8 max-w-sm">Um novo passo na sua jornada de cuidado. Aprenda com a Academy Aegis Care e leve mais conhecimento para a vida de quem você cuida.</p>
           <div className="border-t border-academy-foreground/20 pt-6 max-w-sm">
-            <span className="academy-kicker block text-sm mb-4">Seu próximo passo começa com um curso gratuito.</span>
+            <span className="academy-kicker block text-sm mb-4">Seu próximo passo começa com um curso.</span>
             <Button asChild variant="academy" size="lg" className="academy-course-link w-full sm:w-auto gap-3 text-sm whitespace-normal h-auto min-h-12 py-3 px-6">
-              <a href="https://academy.aegiscare.com.br/" target="_blank" rel="noopener noreferrer">Acessar o curso gratuito<ExternalLink aria-hidden="true" /><span className="sr-only"> (abre em nova aba)</span></a>
+              <a href="https://academy.aegiscare.com.br/" target="_blank" rel="noopener noreferrer">Conheça o Curso<ExternalLink aria-hidden="true" /><span className="sr-only"> (abre em nova aba)</span></a>
             </Button>
           </div>
         </div>
       </div>
-      <img src="/logotipo-academy.svg" alt="Academy Aegis Care" width={864} height={331} loading="lazy" decoding="async" className="academy-watermark" />
+      <img src="/logotipo-academy-branco.svg" alt="Academy Aegis Care" width={864} height={331} loading="lazy" decoding="async" className="academy-watermark" />
     </div>
   </section>
 );
