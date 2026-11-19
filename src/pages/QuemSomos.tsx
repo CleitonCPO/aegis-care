@@ -33,11 +33,11 @@ const QuemSomos = () => {
       <Helmet>
         <title>Quem somos | Aegis Care</title>
         <meta name="description" content="Uma empresa de humanos, para humanos. Conheça a origem da Aegis Care, nossa essência e os compromissos que tornam o cuidado em casa mais humano." />
-        <link rel="canonical" href="https://www.aegiscare.com.br/quem-somos" />
+        <link rel="canonical" href="https://aegiscare.com.br/quem-somos" />
         <meta property="og:title" content="Quem somos | Aegis Care" />
         <meta property="og:description" content="Uma empresa de humanos, para humanos. Nossa história, nossos valores e nosso compromisso com a vida no lar." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.aegiscare.com.br/quem-somos" />
+        <meta property="og:url" content="https://aegiscare.com.br/quem-somos" />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <div className="care-page min-h-screen bg-background">
@@ -52,7 +52,7 @@ const QuemSomos = () => {
             <div className="container-editorial pt-36 pb-20 md:pt-44 md:pb-24">
               <div className="max-w-2xl animate-fade-in">
                 <span className="block text-care-accent text-xs uppercase tracking-[0.2em] mb-6">Aegis Care</span>
-                <h1 className="font-display text-4xl md:text-6xl text-petroleum-foreground mb-6">Quem somos</h1>
+                <h1 className="font-display text-4xl md:text-6xl text-petroleum-foreground mb-6">Aegis Care: cuidado de idosos no lar</h1>
                 <p className="font-display text-2xl md:text-3xl leading-snug max-w-lg">Uma empresa de humanos, para humanos.</p>
                 <span className="block h-px w-16 bg-care-accent mt-10" aria-hidden="true" />
               </div>

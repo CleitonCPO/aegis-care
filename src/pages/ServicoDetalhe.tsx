@@ -9,7 +9,7 @@ import { getServiceBySlug, services } from "@/data/servicos";
 const WHATSAPP_URL =
   "https://api.whatsapp.com/send/?phone=5511920067183&text=Ol%C3%A1%20Aegis%20Care%2C%20eu%20gostaria%20de%20um%20or%C3%A7amento%20de%20cuidador%20para%20meu%20familiar.&type=phone_number&app_absent=0";
 
-const SITE = "https://www.aegiscare.com.br";
+const SITE = "https://aegiscare.com.br";
 
 const ServicoDetalhe = () => {
   const { slug } = useParams();
@@ -21,11 +21,11 @@ const ServicoDetalhe = () => {
   const others = services.filter((s) => s.slug !== service.slug).slice(0, 3);
 
   const provider = {
-    "@type": ["MedicalBusiness", "LocalBusiness"],
+    "@type": "LocalBusiness",
     "@id": `${SITE}/#organization`,
     name: "Aegis Care",
-    url: SITE,
-    telephone: "+55 11 92006-7183",
+    url: `${SITE}/`,
+    telephone: "+5511920067183",
     address: {
       "@type": "PostalAddress",
       streetAddress: "R. Itapura, 254 - 290, Vila Gomes Cardim",

@@ -9,11 +9,11 @@ import cleitonPhoto from "@/assets/cleiton-oliveira-consultorio.jpg";
 import cleitonMobile from "@/assets/cleiton-oliveira-consultorio-mobile.webp";
 import cleitonOptimized from "@/assets/cleiton-oliveira-consultorio-optimized.webp";
 
-const siteUrl = "https://www.aegiscare.com.br";
+const siteUrl = "https://aegiscare.com.br";
 const pageUrl = `${siteUrl}/fundador`;
 // Reuse the sitewide entity identifiers so crawlers recognize one founder and organization.
-const founderId = "https://www.aegiscare.com.br/#cleiton-oliveira";
-const organizationId = "https://www.aegiscare.com.br/#organization";
+const founderId = "https://aegiscare.com.br/#cleiton-oliveira";
+const organizationId = "https://aegiscare.com.br/#organization";
 const title = "Cleiton Oliveira | Enfermeiro e Gerontólogo | Aegis Care";
 const description = "Conheça Cleiton Oliveira, enfermeiro, gerontólogo e fundador da Aegis Care, agência de cuidadores de idosos em SP e MG. Trajetória e compromisso com o cuidado no lar.";
 const beliefs = [
@@ -89,8 +89,10 @@ const Fundador = () => (
               </figure>
               <div className="md:col-span-7">
                 <span className="block text-sm text-emerald mb-5">O fundador</span>
-                <h1 id="founder-name" className="font-display text-4xl md:text-5xl lg:text-6xl text-petroleum mb-6">Cleiton Oliveira</h1>
-                <p className="text-base md:text-lg text-emerald font-medium mb-7">Enfermeiro · Gerontólogo · Fundador da Aegis Care</p>
+                <h1 id="founder-name" className="font-display text-4xl md:text-5xl lg:text-6xl text-petroleum mb-7">
+                  {"Cleiton Oliveira "}
+                  <span className="block mt-6 font-sans text-base md:text-lg text-emerald font-medium">Enfermeiro · Gerontólogo · Fundador da Aegis Care</span>
+                </h1>
                 <span className="block h-px w-16 bg-gold mb-7" aria-hidden="true" />
                 <p className="text-lg text-muted-foreground leading-relaxed">À frente da Aegis Care, agência de cuidadores de idosos em São Paulo e Minas Gerais, coordeno o cuidado domiciliar com critério clínico, presença e respeito à história de cada pessoa.</p>
               </div>

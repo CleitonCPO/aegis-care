@@ -9,7 +9,7 @@ import heroImage from "@/assets/servicos/cuidado-domiciliar-hero.jpg";
 import { services } from "@/data/servicos";
 import { serviceOverview, supervision } from "@/data/serviceOverview";
 
-const siteUrl = "https://www.aegiscare.com.br";
+const siteUrl = "https://aegiscare.com.br";
 const pageUrl = `${siteUrl}/servicos`;
 const title = "Cuidadores de Idosos: Serviços e Acompanhamento | Aegis Care";
 const description = "Cuidadores de idosos no lar, em internações, consultas e viagens, com supervisão de enfermagem. Conheça os serviços da Aegis Care em São Paulo e Minas Gerais.";
@@ -37,7 +37,7 @@ const structuredData = {
           name: service.title, serviceType: "Acompanhamento por cuidador de idosos",
           description: `${service.description} ${service.detail} Com ${supervision.scope}.`,
           url: `${pageUrl}#${service.id}`,
-          provider: { "@id": "https://www.aegiscare.com.br/#organization" },
+          provider: { "@id": "https://aegiscare.com.br/#organization" },
         },
       })),
     },
@@ -80,7 +80,7 @@ const Servicos = () => (
             </nav>
             <div className="max-w-2xl">
               <span className="block h-px w-16 bg-gold mb-7" aria-hidden="true" />
-              <h1 id="services-title" className="font-display text-4xl md:text-5xl lg:text-6xl text-petroleum-foreground mb-6">Nossos serviços</h1>
+              <h1 id="services-title" className="font-display text-4xl md:text-5xl lg:text-6xl text-petroleum-foreground mb-6">Cuidadores de idosos no lar e fora dele</h1>
               <p className="text-xl md:text-2xl font-display leading-relaxed text-petroleum-foreground">Cuidado que se adapta à sua família, no lar e fora dele.</p>
               <p className="mt-5 text-base md:text-lg leading-relaxed text-petroleum-foreground/90 max-w-xl">A Aegis Care é uma agência de cuidadores de idosos com supervisão de enfermagem. Acompanhamos sua família em casa, durante internações, em consultas e em viagens, com presença humana e respeito à autonomia.</p>
             </div>

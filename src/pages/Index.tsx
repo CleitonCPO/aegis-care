@@ -55,8 +55,8 @@ const Index = memo(() => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <link rel="canonical" href="https://www.aegiscare.com.br/" />
-        <meta property="og:url" content="https://www.aegiscare.com.br/" />
+        <link rel="canonical" href="https://aegiscare.com.br/" />
+        <meta property="og:url" content="https://aegiscare.com.br/" />
       </Helmet>
       <Header />
       <main>

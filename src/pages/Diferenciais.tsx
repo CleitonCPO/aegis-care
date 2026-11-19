@@ -17,6 +17,8 @@ const Diferenciais = () => (
       <meta name="description" content="Conheça o diferencial da Aegis Care: transparência, participação da família, cuidadores valorizados e presença do fundador." />
       <meta property="og:title" content="Nosso diferencial | Aegis Care" />
       <meta property="og:description" content="Transparência, cuidado compartilhado e presença humana em cada etapa." />
+      <link rel="canonical" href="https://aegiscare.com.br/diferenciais" />
+      <meta property="og:url" content="https://aegiscare.com.br/diferenciais" />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />
     </Helmet>

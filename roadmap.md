@@ -21,3 +21,6 @@
 - [x] Fazer relatos avançarem suavemente com pausa e respeito à redução de movimento
 - [x] Corrigir e verificar os três alertas de navegação e contraste do menu
 - [x] Conferir Quem Somos reescrita com os seis blocos, azul petróleo, esmeralda e entradas suaves
+
+- [x] Corrigir títulos, prévias, dados da empresa e domínio do sitemap nos alertas de SEO
+- [ ] Enviar o sitemap atualizado e confirmar no Google Search Console após publicação
