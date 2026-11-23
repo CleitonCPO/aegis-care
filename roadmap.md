@@ -24,3 +24,5 @@
 
 - [x] Corrigir títulos, prévias, dados da empresa e domínio do sitemap nos alertas de SEO
 - [ ] Enviar o sitemap atualizado e confirmar no Google Search Console após publicação
+- [x] Adicionar depoimento da família do paciente pós AVC, com português corrigido
+- [ ] Planejar a primeira campanha de anúncios (aguardando respostas do briefing)

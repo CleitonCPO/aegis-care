@@ -37,6 +37,10 @@ const testimonials = [
     name: "Eduardo Santana Lima",
     text: "Estava receoso em contratar cuidadores para minha avó, mas o acolhimento que recebemos foi surpreendente. Me senti amparado do início ao fim.",
   },
+  {
+    name: "Filha de paciente",
+    text: "Depois do AVC do meu pai, o Cleiton esteve ao nosso lado, sempre orientando e ajudando nas decisões sobre os cuidados. Ele e a Bruna escolheram cuidadores muito bons, que sabem lidar com imprevistos, e sempre enviam alguém quando algum cuidador tem um problema. Meu pai vem tendo uma ótima recuperação: recuperou parte da mobilidade, melhorou a fala e deixou de precisar da sonda. Ele é atendido por outros profissionais e, mesmo sem gerenciá-los, o Cleiton conversa com eles para agilizar a recuperação e orientar o cuidador. Quando meu pai ficou internado, a equipe continuou acompanhando, e o Cleiton conversou bastante com o hospital, orientando as cuidadoras sobre como agir e manter todos informados. Cleiton e toda a equipe, muito obrigada. Não só eu, meu pai também agradece.",
+  },
 ];
 
 const TestimonialsSection = () => {
