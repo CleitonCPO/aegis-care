@@ -8,6 +8,9 @@ import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/servicos/cuidado-domiciliar-hero.jpg";
 import { services } from "@/data/servicos";
 import { serviceOverview, supervision } from "@/data/serviceOverview";
+import { useWhatsAppLink } from "@/lib/region";
+import { quoteUrl } from "@/lib/whatsappQuote";
+import WhatsAppMark from "@/components/WhatsAppMark";
 
 const siteUrl = "https://aegiscare.com.br";
 const pageUrl = `${siteUrl}/servicos`;
@@ -51,7 +54,10 @@ const structuredData = {
   ],
 };
 
-const Servicos = () => (
+const Servicos = () => {
+  const whatsAppLink = useWhatsAppLink();
+
+  return (
   <>
     <Helmet>
       <title>{title}</title>
@@ -123,6 +129,14 @@ const Servicos = () => (
                           return <Button key={slug} asChild variant="link" className="px-0 text-emerald whitespace-normal text-left justify-start h-auto min-h-11"><Link to={`/servicos/${slug}`}>{service.shortName}</Link></Button>;
                         })}
                       </div>
+                      <div className="mt-7">
+                        <Button asChild variant="whatsapp" size="lg" className="gap-2.5 w-full sm:w-auto min-h-[52px] px-8 [&_svg]:size-5">
+                          <a href={whatsAppLink(quoteUrl(overview.title))} target="_blank" rel="noopener noreferrer">
+                            <WhatsAppMark />
+                            Solicitar orçamento agora
+                          </a>
+                        </Button>
+                      </div>
                     </div>
                   </div>
                 </section>
@@ -156,5 +170,7 @@ const Servicos = () => (
       <Footer />
     </div>
   </>
-);
+  );
+};
+
 export default Servicos;

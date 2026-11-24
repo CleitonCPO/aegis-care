@@ -42,6 +42,11 @@ export default {
           surface: "hsl(var(--care-surface))",
           accent: "hsl(var(--care-accent))",
         },
+        whatsapp: {
+          DEFAULT: "hsl(var(--whatsapp))",
+          foreground: "hsl(var(--whatsapp-foreground))",
+          deep: "hsl(var(--whatsapp-deep))",
+        },
         cream: {
           DEFAULT: "hsl(var(--cream))",
           dark: "hsl(var(--cream-dark))",

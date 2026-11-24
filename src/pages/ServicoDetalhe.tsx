@@ -3,7 +3,8 @@ import { Link, Navigate, useParams } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Check, Phone } from "lucide-react";
+import { ArrowRight, Check } from "lucide-react";
+import WhatsAppMark from "@/components/WhatsAppMark";
 import { getServiceBySlug, services } from "@/data/servicos";
 
 const WHATSAPP_URL =
@@ -167,17 +168,12 @@ const ServicoDetalhe = () => {
                   <p className="text-muted-foreground leading-[1.85] prose-justified">
                     {service.definition}
                   </p>
-                  <a
-                    href={WHATSAPP_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block mt-8"
-                  >
-                    <Button variant="cta" size="lg" className="gap-2">
-                      <Phone className="w-4 h-4" aria-hidden="true" />
-                      Solicitar orçamento
-                    </Button>
-                  </a>
+                  <Button asChild variant="whatsapp" size="lg" className="gap-2.5 min-h-[52px] px-8 [&_svg]:size-5 mt-8">
+                    <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+                      <WhatsAppMark />
+                      Solicitar orçamento agora
+                    </a>
+                  </Button>
                 </div>
               </div>
             </div>
@@ -307,12 +303,12 @@ const ServicoDetalhe = () => {
               <p className="text-white/80 leading-[1.85] mb-10">
                 A avaliação inicial é conduzida por enfermeiro, sem custo e sem compromisso.
               </p>
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-                <Button variant="cta" size="xl" className="gap-2">
-                  <Phone className="w-5 h-5" aria-hidden="true" />
-                  Solicitar orçamento
-                </Button>
-              </a>
+              <Button asChild variant="whatsapp" size="xl" className="gap-2.5 min-h-[56px] px-10 [&_svg]:size-5">
+                <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+                  <WhatsAppMark />
+                  Solicitar orçamento agora
+                </a>
+              </Button>
             </div>
           </section>
 

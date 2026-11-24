@@ -29,6 +29,8 @@ const buttonVariants = cva(
           "border border-primary-foreground/50 bg-transparent text-primary-foreground hover:bg-primary-foreground/10 hover:border-primary-foreground",
         cta:
           "bg-primary text-primary-foreground hover:bg-[hsl(var(--teal-deep))] shadow-soft",
+        whatsapp:
+          "bg-whatsapp text-whatsapp-foreground hover:bg-whatsapp-deep shadow-soft hover:shadow-elevated normal-case tracking-normal",
       },
       size: {
         default: "h-11 px-6 py-2 text-xs",
