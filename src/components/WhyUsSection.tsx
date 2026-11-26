@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
 const differentials = [
-  { title: "Transparência em cada etapa", text: "A família por dentro de tudo." },
-  { title: "Participação da família", text: "A família participa de cada decisão de cuidado." },
-  { title: "Cuidadores valorizados", text: "Cuidadores ouvidos, orientados e valorizados não são números." },
-  { title: "Fundador presente", text: "Conduz pessoalmente a coordenação." },
+  { title: "Equipe de enfermagem por trás de cada cuidador", text: "Planos de cuidado definidos e acompanhados pela coordenação de enfermagem." },
+  { title: "Seleção rigorosa", text: "Checagem de referências, experiência comprovada e treinamento contínuo pela Aegis Academy." },
+  { title: "Família sempre informada", text: "Relatórios frequentes e um canal direto com a coordenação." },
+  { title: "Dignidade em primeiro lugar", text: "Respeito à história, aos hábitos e à autonomia de cada idoso." },
 ];
 
 const WhyUsSection = () => {
@@ -19,7 +19,7 @@ const WhyUsSection = () => {
             O que nos diferencia
           </h2>
           <p className="text-lg text-white/75 leading-[1.8] prose-justified">
-            Não somos os maiores. Buscamos ser os mais verdadeiros.
+            Mais do que enviar um cuidador: uma estrutura de enfermagem cuidando de quem você ama.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-x-16 gap-y-8">

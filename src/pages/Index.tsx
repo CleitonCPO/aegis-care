@@ -11,6 +11,8 @@ import ScrollReveal from "@/components/ScrollReveal";
 const FounderSection = lazy(() => import("@/components/FounderSection"));
 const AboutSection = lazy(() => import("@/components/AboutSection"));
 const ServicesSection = lazy(() => import("@/components/ServicesSection"));
+const ModalitiesSection = lazy(() => import("@/components/ModalitiesSection"));
+const HowItWorksSection = lazy(() => import("@/components/HowItWorksSection"));
 const WhyUsSection = lazy(() => import("@/components/WhyUsSection"));
 const TestimonialsSection = lazy(() => import("@/components/TestimonialsSection"));
 const AcademySection = lazy(() => import("@/components/AcademySection"));
@@ -64,30 +66,36 @@ const Index = memo(() => {
         <ScrollReveal>
         <TrustStrip />
         
-        <LazySection forceVisible={forceSections} rootMargin="500px" placeholderClassName="min-h-[1000px] md:min-h-[800px]">
-          <Suspense fallback={<SectionFallback />}>
-            <AboutSection />
-          </Suspense>
-        </LazySection>
-        
         <LazySection forceVisible={forceSections}>
           <Suspense fallback={<SectionFallback />}>
-            <WhyUsSection />
+            <ModalitiesSection />
           </Suspense>
         </LazySection>
-
         <LazySection forceVisible={forceSections}>
           <Suspense fallback={<SectionFallback />}>
             <ServicesSection />
           </Suspense>
         </LazySection>
-
+        <LazySection forceVisible={forceSections}>
+          <Suspense fallback={<SectionFallback />}>
+            <WhyUsSection />
+          </Suspense>
+        </LazySection>
+        <LazySection forceVisible={forceSections}>
+          <Suspense fallback={<SectionFallback />}>
+            <HowItWorksSection />
+          </Suspense>
+        </LazySection>
+        <LazySection forceVisible={forceSections}>
+          <Suspense fallback={<SectionFallback />}>
+            <AboutSection />
+          </Suspense>
+        </LazySection>
         <LazySection forceVisible={forceSections}>
           <Suspense fallback={<SectionFallback />}>
             <FounderSection />
           </Suspense>
         </LazySection>
-
         <LazySection forceVisible={forceSections}>
           <Suspense fallback={<SectionFallback />}>
             <TestimonialsSection />
