@@ -171,7 +171,7 @@ const ServicoDetalhe = () => {
                   <Button asChild variant="whatsapp" size="lg" className="gap-2.5 min-h-[52px] px-8 [&_svg]:size-5 mt-8">
                     <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
                       <WhatsAppMark />
-                      Solicitar orçamento agora
+                      SOLICITAR ORÇAMENTO
                     </a>
                   </Button>
                 </div>
@@ -306,7 +306,7 @@ const ServicoDetalhe = () => {
               <Button asChild variant="whatsapp" size="xl" className="gap-2.5 min-h-[56px] px-10 [&_svg]:size-5">
                 <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
                   <WhatsAppMark />
-                  Solicitar orçamento agora
+                  SOLICITAR ORÇAMENTO
                 </a>
               </Button>
             </div>

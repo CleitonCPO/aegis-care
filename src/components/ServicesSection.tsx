@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import HomeQuoteButton from "@/components/HomeQuoteButton";
 
 const services = [
-  { title: "Cuidador domiciliar", text: "Cuidadores selecionados para higiene, alimentação, mobilidade, medicação e companhia no conforto do lar.", to: "/servicos" },
+  { title: "Cuidador de idosos em casa", text: "Cuidadores selecionados para higiene, alimentação, mobilidade, medicação e companhia no conforto do lar.", to: "/servicos" },
+  { title: "Cuidador para adultos", text: "Apoio a adultos após AVC, acidentes ou cirurgias, durante o tratamento de câncer, com esclerose múltipla e na reabilitação.", to: "/servicos/cuidador-para-adultos" },
   { title: "Acompanhamento em internações", text: "Presença atenta no hospital e apoio seguro na volta para casa após a alta.", to: "/servicos" },
   { title: "Acompanhamento em consultas e exames", text: "Transporte, acolhimento e registro das orientações médicas para a família.", to: "/servicos" },
   { title: "Acompanhamento em viagens", text: "Cuidado contínuo para que seu familiar viaje com segurança e tranquilidade.", to: "/servicos" },
@@ -17,7 +18,7 @@ const ServicesSection = () => (
           Onde seu familiar precisar, a Aegis Care está presente
         </h2>
       </div>
-      <div className="grid md:grid-cols-2 gap-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {services.map((s) => (
           <article key={s.title} className="border border-border rounded-sm p-8 flex flex-col">
             <h3 className="font-display text-2xl text-foreground mb-3">{s.title}</h3>

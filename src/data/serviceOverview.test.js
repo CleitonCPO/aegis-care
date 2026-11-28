@@ -2,8 +2,8 @@ import { describe, expect, test } from "bun:test";
 import { serviceOverview, supervision } from "./serviceOverview";
 
 describe("Oferta confirmada da Aegis", () => {
-  test("cuidadores atendem no lar, hospital, consultas e viagens", () => {
-    expect(serviceOverview.map((service) => service.id)).toEqual(["domiciliar", "hospital", "consultas", "viagens"]);
+  test("cuidadores atendem idosos e adultos no lar, hospital, consultas e viagens", () => {
+    expect(serviceOverview.map((service) => service.id)).toEqual(["domiciliar", "adultos", "hospital", "consultas", "viagens"]);
   });
   test("a supervisão não anuncia equipe de enfermagem como serviço separado", () => {
     expect(supervision.standaloneNursingTeam).toBe(false);

@@ -1,11 +1,19 @@
 export const serviceOverview = [
   {
     id: "domiciliar",
-    title: "Cuidador domiciliar",
+    title: "Cuidador de idosos em casa",
     description: "Acompanhamento diurno, noturno ou integral, com cuidador selecionado e preparado para as necessidades de quem você ama. Cuidado com afeto, segurança e respeito à rotina da pessoa.",
-    detail: "Apoio na higiene, alimentação, mobilidade e companhia. O plano considera a autonomia, a história e as necessidades de cada pessoa, inclusive no cuidado de adultos e de pessoas com Alzheimer, demência, Parkinson ou após um AVC.",
+    detail: "Apoio na higiene, alimentação, mobilidade e companhia. O plano considera a autonomia, a história e as necessidades de cada pessoa, inclusive de pessoas com Alzheimer, demência, Parkinson ou após um AVC.",
     imageSlug: "cuidador-de-idosos",
-    links: ["cuidador-de-idosos", "cuidador-para-adultos", "cuidados-alzheimer-parkinson"],
+    links: ["cuidador-de-idosos", "cuidados-alzheimer-parkinson"],
+  },
+  {
+    id: "adultos",
+    title: "Cuidador para adultos",
+    description: "Cuidado para adultos que enfrentam um AVC, um acidente, uma cirurgia, o tratamento de câncer, a esclerose múltipla ou um período de reabilitação, em casa ou no hospital.",
+    detail: "Apoio na higiene, alimentação, mobilidade, medicação e companhia, respeitando a autonomia da pessoa e as orientações da equipe de saúde.",
+    imageSlug: "cuidador-para-adultos",
+    links: ["cuidador-para-adultos"],
   },
   {
     id: "hospital",

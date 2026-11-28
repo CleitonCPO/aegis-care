@@ -42,7 +42,7 @@ const HeroSection = memo(() => {
           >
             <span className="h-px w-12 bg-[hsl(var(--gold))]" />
             <span className="text-[hsl(var(--gold))] text-[0.7rem] tracking-[0.32em] uppercase font-medium">
-              Supervisão de Enfermagem
+              Aegis Care Cuidadores
             </span>
           </div>
 
@@ -50,14 +50,14 @@ const HeroSection = memo(() => {
             className={`font-display text-[2.25rem] md:text-5xl lg:text-[3.75rem] text-white font-normal leading-[1.08] mb-8 transition-all duration-[1100ms] ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
             style={{ transitionDelay: "150ms", letterSpacing: "-0.035em" }}
           >
-            Cuidadores de idosos em São Paulo, com supervisão da enfermagem.
+            Precisa de um cuidador para quem você ama?
           </h1>
 
           <p
             className={`text-base md:text-lg text-white/85 mb-12 leading-[1.7] font-light max-w-xl transition-all duration-[1100ms] ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
             style={{ transitionDelay: "320ms" }}
           >
-            Plantões de 4h a 24h em casa ou no hospital, com início rápido e uma equipe de enfermagem acompanhando cada detalhe.
+            Conte com cuidadores para idosos e adultos, em casa ou no hospital, com início rápido. Você não precisa enfrentar esse momento sozinho.
           </p>
 
           <div
@@ -70,7 +70,7 @@ const HeroSection = memo(() => {
               rel="noopener noreferrer"
             >
               <Button variant="whatsapp" size="xl" className="w-full sm:w-auto">
-                Solicitar Orçamento
+                SOLICITAR ORÇAMENTO
               </Button>
             </a>
             <Link to="/servicos">
