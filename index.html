@@ -9,12 +9,14 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="format-detection" content="telephone=no" />
     
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-M5WZRF2J');</script>
+    <!-- Google Tag Manager (deferred until interaction or idle, for mobile speed) -->
+    <script>
+      (function(w,d){w.dataLayer=w.dataLayer||[];var done=false;
+      function gtm(){if(done)return;done=true;w.dataLayer.push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+      var j=d.createElement('script');j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id=GTM-M5WZRF2J';d.head.appendChild(j);}
+      ['pointerdown','keydown','scroll','touchstart'].forEach(function(e){w.addEventListener(e,gtm,{once:true,passive:true});});
+      w.addEventListener('load',function(){setTimeout(gtm,4000);});})(window,document);
+    </script>
     <!-- End Google Tag Manager -->
 
     <!-- Meta Pixel Code (deferred for performance) -->

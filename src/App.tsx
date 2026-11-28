@@ -7,7 +7,7 @@ import { HelmetProvider } from "react-helmet-async";
 import { Suspense, lazy } from "react";
 import PageLoader from "./components/PageLoader";
 
-const Index = lazy(() => import("./pages/Index"));
+import Index from "./pages/Index";
 const Blog = lazy(() => import("./pages/Blog"));
 const BlogArticle = lazy(() => import("./pages/BlogArticle"));
 const QuemSomos = lazy(() => import("./pages/QuemSomos"));

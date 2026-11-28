@@ -55,7 +55,7 @@ const RegionGate = () => {
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center bg-[hsl(var(--navy-deep))]/80 backdrop-blur-sm animate-fade-in p-4"
+      className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center bg-[hsl(var(--navy-deep))]/85 sm:backdrop-blur-sm animate-fade-in p-4"
       role="dialog"
       aria-modal="true"
       aria-labelledby="region-gate-title"
